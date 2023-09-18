@@ -11,7 +11,7 @@ p:nth-child(2){
 	color:black;
 }
 p:last-child{
-	color: red;
+	color: rgb(255,0,0);
 }
 
 li{
