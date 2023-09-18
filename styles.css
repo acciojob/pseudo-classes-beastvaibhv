@@ -1,17 +1,18 @@
-:root{
+body{
 	background-color: rgb(135, 206, 235);
 }
-
-p:first-child{
+p:nth-of-type(1) { 
+  background-color: black;
 	color: white;
-	background-color:black;
-	
 }
-p:nth-child(2){
-	color:black;
+
+p:nth-of-type(2) {
+  /* Standard text color (adjust as needed) */
+  color: black;
 }
-p:last-child{
-	color: rgb(255,0,0);
+
+p:nth-of-type(4) {
+  color: rgb(255, 0, 0);
 }
 
 li{
